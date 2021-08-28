@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/likun2019/BXAdvertSDK.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = 'BXAdvertSDK/AdvertSDK.framework'
+  spec.vendored_frameworks = 'AdvertSDK.framework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,10 +92,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'BXAdvertSDK/AdvertSDK.framework/Headers/*.{h}'
+  spec.source_files  = 'AdvertSDK.framework/Headers/*.{h}'
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = 'BXAdvertSDK/AdvertSDK.framework/Headers/*.{h}'
+  spec.public_header_files = 'AdvertSDK.framework/Headers/*.{h}'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

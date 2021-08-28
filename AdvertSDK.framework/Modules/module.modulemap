@@ -1,0 +1,6 @@
+framework module AdvertSDK {
+  umbrella header "AdvertSDK.h"
+
+  export *
+  module * { export * }
+}

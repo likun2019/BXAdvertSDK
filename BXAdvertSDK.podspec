@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/likun2019/BXAdvertSDK.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = 'BXAdvertSDK.framework'
+  # spec.vendored_frameworks = 'BXAdvertSDK.framework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
